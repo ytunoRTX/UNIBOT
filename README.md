@@ -1,4 +1,4 @@
-# 🎓 AcademiBot: Asistente Académico Inteligente e Inclusivo
+# 🎓 UniBot: Asistente Académico Inteligente e Inclusivo
 
 > **Hackathon 2025** - Automatización, Eficiencia y Accesibilidad Universitaria.
 
@@ -11,7 +11,7 @@ La gestión académica actual enfrenta dos grandes desafíos:
 2.  **Barreras de Acceso:** Las plataformas tradicionales son rígidas y excluyentes. Un estudiante con dificultades motoras o visuales depende de terceros para realizar gestiones básicas.
 
 ## La Solución
-**AcademiBot** es un sistema de **Automatización Inteligente** diseñado para **TODOS**. Transforma la burocracia en una conversación fluida en Telegram.
+**UniBot** es un sistema de **Automatización Inteligente** diseñado para **TODOS**. Transforma la burocracia en una conversación fluida en Telegram.
 
 Su enfoque es **Multimodal y Universal**:
 * **Para el estudiante ocupado:** Ofrece inmediatez. Permite gestionar trámites en segundos mediante menús rápidos o notas de voz mientras se desplaza.
@@ -41,5 +41,6 @@ Cada documento generado incluye medidas de seguridad antifraude:
 
 ### 4. Robustez y Manejo de Errores 
 El agente cuenta con reglas estrictas (Guardrails) para guiar al usuario si ingresa opciones inválidas, evitando que el sistema colapse ante entradas inesperadas.
+
 
 
