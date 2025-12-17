@@ -39,8 +39,23 @@ Cada documento generado incluye medidas de seguridad antifraude:
 * **Código QR Dinámico:** Enlace de validación único por documento.
 * **Hash SHA-256:** Simulación de firma electrónica para integridad de datos.
 
-### 4. Robustez y Manejo de Errores 
-El agente cuenta con reglas estrictas (Guardrails) para guiar al usuario si ingresa opciones inválidas, evitando que el sistema colapse ante entradas inesperadas.
+### 4. Robustez y Control de Sobrecarga 
+Para prevenir la sobrecarga del servidor y garantizar una experiencia equitativa para todos 
+los usuarios, UniBot incorpora un sistema inteligente de "Semáforo" de frecuencia:
+Problema Abordado: Evitar ataques de denegación de servicio (DDoS) involuntarios, donde múltiples 
+usuarios intentan generar documentos costosos en RAM simultáneamente.
+Mecanismo Implementado: Antes de generar el documento, el sistema consulta la base de datos para 
+verificar la fecha_emision de la última solicitud.
+Regla de Tiempo: Si el tiempo transcurrido desde la última solicitud es inferior a un umbral 
+predefinido (ej. 2 minutos), la ejecución es bloqueada con un mensaje de espera.
+Beneficio: Asegura la estabilidad operativa 24/7 y protege los recursos del servidor.
+
+### 5. Manejo de Errores y Guiado de Usuario (Guardrails) 
+El agente cuenta con reglas estrictas (Guardrails) para guiar al usuario si ingresa opciones inválidas, evitando 
+que el sistema colapse ante entradas inesperadas. También incluye validación de datos para avisar al usuario si la cédula ingresada no existe en la base de datos.
+
+
+
 
 
 
