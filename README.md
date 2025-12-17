@@ -10,7 +10,7 @@
 ##  El Problema
 
 La gestión académica actual enfrenta dos grandes desafíos:
-1.  **Ineficiencia Burocrática:** El 90% de los estudiantes pierde horas en filas o navegando portales web complejos para trámites simples (certificados, consultas), lo que satura a las secretarías.
+1.  **Ineficiencia Burocrática:** El 90% de los estudiantes pierden horas en filas o navegando portales web complejos para trámites simples (certificados, consultas), lo que satura a las secretarías.
 2.  **Barreras de Acceso:** Las plataformas tradicionales son rígidas y excluyentes. Un estudiante con dificultades motoras o visuales depende de terceros para realizar gestiones básicas.
 
 ##  La Solución
@@ -69,4 +69,5 @@ El agente cuenta con reglas estrictas (Guardrails) para guiar al usuario si ingr
 | **OpenAI (GPT)** | Agente IA para razonamiento y entendimiento de intención. |
 | **PostgreSQL / Supabase** | Base de datos para registros académicos y control de frecuencia. |
 | **PDFMonkey** | Generación de documentos PDF profesionales mediante inyección SQL. |
+
 
